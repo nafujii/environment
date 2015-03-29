@@ -1,0 +1,33 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"ApacheConf.tmLanguage",
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"Diffy",
+		"DocBlockr",
+		"EditorConfig",
+		"Git",
+		"Git-StatusBar",
+		"GitGutter",
+		"LineEndings",
+		"Markdown Extended",
+		"Monokai Extended",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"RecentActiveFiles",
+		"SideBarEnhancements",
+		"Smart Delete",
+		"Theme - Aprosopo",
+		"Theme - Cobalt2",
+		"Theme - Coffee",
+		"Theme - Flatland",
+		"Theme - Freesia",
+		"Theme - Glacier"
+	]
+}
