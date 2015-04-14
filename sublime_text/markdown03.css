@@ -68,7 +68,7 @@ sup {
 * {
      -webkit-print-color-adjust: exact;
 }
-table {
+table:not(.codehilitetable) {
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid #dddddd;
@@ -79,8 +79,8 @@ table {
           border-radius: 4px;
 }
 
-table th,
-table td {
+table:not(.codehilitetable) th,
+table:not(.codehilitetable) td {
   padding: 8px;
   line-height: 20px;
   text-align: left;
@@ -89,17 +89,19 @@ table td {
   border-left: 1px solid #dddddd;
 }
 
-table th { font-weight: bold; }
-table thead th { vertical-align: bottom; }
+table:not(.codehilitetable) th { font-weight: bold; }
+table:not(.codehilitetable) thead th { vertical-align: bottom; }
 
-table thead:first-child tr:first-child th,
-table thead:first-child tr:first-child td {
+table:not(.codehilitetable) thead:first-child tr:first-child th,
+table:not(.codehilitetable) thead:first-child tr:first-child td {
   border-top: 0;
 }
-tr:nth-child(odd) td {
+table:not(.codehilitetable) tr:nth-child(odd) td {
   background-color: #F5F5F8;
 }
-
+div .linenodiv pre {
+     border:0px solid #ddd;
+}
 @media screen and (min-width: 914px) {
    body {
       width: 854px;
