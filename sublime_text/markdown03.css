@@ -69,7 +69,7 @@ sup {
      -webkit-print-color-adjust: exact;
 }
 table:not(.codehilitetable) {
-  width: 100%;
+  /*width: 100%;*/
   margin-bottom: 20px;
   border: 1px solid #dddddd;
   border-collapse: collapse;
@@ -96,7 +96,10 @@ table:not(.codehilitetable) thead:first-child tr:first-child th,
 table:not(.codehilitetable) thead:first-child tr:first-child td {
   border-top: 0;
 }
-table:not(.codehilitetable) tr:nth-child(odd) td {
+table:not(.codehilitetable) th {
+  background-color: #E3E3E8;
+}
+table:not(.codehilitetable) tr:nth-child(even) td {
   background-color: #F5F5F8;
 }
 div .linenodiv pre {
